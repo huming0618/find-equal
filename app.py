@@ -23,6 +23,8 @@ def find(input, limit, all=False):
                 else:
                     result.append([m,n,'+'])
                     print("{}+{}={}".format(m,n,input))
+
+    print('--------size-----------')
     print(len(result))
 
 
