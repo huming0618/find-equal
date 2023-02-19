@@ -29,6 +29,7 @@ def find(input, limit, all=False):
 
 
 if __name__ == '__main__':
+    #python3 app.py 3 10 all
     input = sys.argv[1]
     limit = sys.argv[2]
     all = False 
